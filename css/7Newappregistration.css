@@ -1,0 +1,132 @@
+.navheader{
+    background: linear-gradient(to right,#5C174E,#040073)
+}
+  .newapp{
+    width: 100%;
+    background-color: #f2f6fc;
+    padding-top: 20px;
+    height: 700px;
+  }
+
+  @media only screen and (max-width:300px){
+    .navbar-toggler{
+      padding-left: 0px;
+      padding-right: 0px;
+      width: 27px;
+      height: 35px;
+    }
+ 
+    .navbar-toggler-icon{
+      width:20px;
+      height: 20px;
+    }
+ 
+   }
+  .boxnewapp
+{    
+    height: 320px;
+    /* width: 450px; */
+    /* margin-left: 450px; */
+    /* margin-top: 80px; */
+  background-color: white;
+  border: 1px solid #e4d9d9;
+  box-shadow: 1px 2px 4px 0px rgba(0,0,0,0.1);
+
+  border-radius: 10px;
+}
+
+.headnewapp{
+ /* width: 450px; */
+ background:linear-gradient(to right ,#0c04AE ,#2564DE);
+ font-size: 12px;
+ color: white;
+ margin-top: 0px;
+ height: 30px;
+ padding-top: 15px;
+ border-top-right-radius: 10px;
+ border-top-left-radius: 10px;
+ text-align: center;
+}
+.boxnewapp label{
+    font-size: 11px;
+}
+.boxnewapp input[type="text"]{
+    border: 1px solid #e4d9d9;
+    background-color:#f2f6fc ;
+    border-radius:5px;
+    height: 25px;
+    width: 280px;
+    padding-top: 0px;
+    margin-top: 5px;
+    /* margin-bottom: 20px; */
+}
+
+
+.newappleft{
+    float: left;
+    width: 320px;
+    padding-top: 10px;
+    padding-left: 25px;
+    
+}
+
+.registerappbtn{
+    border: none;
+    width: 100px;
+    height: 25px;
+    /* margin-left: 20px; */
+    margin-bottom: 20px;
+    margin-right: 15px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px #0a2cfb;
+    opacity: 0.8;
+    font-size: 11px;
+    color:white;
+    background: linear-gradient(to right ,#0c04AE ,#2564DE);
+
+}
+.newappleft a{
+    font-size: 11px;
+    text-decoration: underline;
+    margin-left: 10px;
+}
+
+
+    .boxappimg{
+        
+        background-color: #f2f6fc;
+        width: 100px;
+        height: 100px;
+        margin-top: 45px;
+        float:right;
+        border-radius: 10px;
+        margin-right: 5px;
+
+
+    }
+
+     #imagee{
+        /* padding-top: 10px; */
+        background-image: url("./../images/uploadiconplaceholder.png");
+        height: 30px;
+        width: 25px;
+        background-position:15px 15px;
+        background-repeat: no-repeat;
+        border: none;
+        padding-bottom: 60px;
+        padding-top: 20px;
+        padding-left: 30px;
+        margin-top: 20px;
+        margin-left: 5px;
+    }
+       
+ .uploadappbtn{
+    text-decoration: underline;
+    border: none;
+    margin-top: 30px;
+    margin-left: 10px;
+    background-color: white;
+    position: relative;
+
+}
+    

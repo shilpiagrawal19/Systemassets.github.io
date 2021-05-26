@@ -1,0 +1,96 @@
+.navheader{
+    /* width: 100%;
+    height: 70px; */
+    background: linear-gradient(to right,#5C174E,#040073)
+}
+
+/*
+
+.logosamnav{
+    padding-top: 15px;
+    padding-bottom: 20px;
+    width: 140px;
+    padding-left: 30px;
+    float: left;
+}
+nav{
+    float: right;
+    font-size: 12px;
+    color: white;
+}
+
+.dropdown{
+    padding-top: 25px;
+    padding-right: 40px;
+    padding-bottom: 25px;
+    width: 90px;
+    margin-left: 40px;
+} 
+  .dropcontent {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    font-size: 10px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-top: 5px;
+    left: 1200px;
+    border-radius: 6px;
+  }
+  
+  
+  .dropcontent a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropcontent a:hover {
+    background-color:white ;
+  }
+  .dropdown:hover .dropcontent {
+    display: block;
+  } */
+
+  .firsttime{
+    width: 100%;
+    height: 340px;
+    background-color: #f2f6fc;
+    padding-top: 20px;
+  }
+
+  .imgfirsttime{
+    width: 220px;
+    height: 200px;
+  }
+  .firstcontentapp{
+      width: 100%;
+      height: 260px;
+      background-color: #f2f6fc;
+
+      }
+  .btnnewapp{
+    border: none;
+    width: 150px;
+    height: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 25px 0px #0a2cfb;
+    opacity: 0.8;
+    color:white;
+    background: linear-gradient(to right ,#0c04AE ,#2564DE);
+
+}
+
+.headfirst{
+    color: #2462D7;
+    font-size: 18px;
+
+}
+
+.textalign{
+
+    text-align: center;
+
+}

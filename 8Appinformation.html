@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>App Information</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">       
+        <link rel="stylesheet" type="text/css" href="css\8Appinformation.css">
+         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        
+
+    </head>
+    <body >
+
+       <div class="container">
+           <div class="row">
+               <!-- ///////sidenav////////////////////// -->
+               <div class="col-3 px-0">
+                <div class="sidenav">
+                    <img src="images\logo-White-Text.png" class="img-fluid px-sm-5 py-5 logosamapp"> 
+                    <div class="sidecontent ">
+                        <a class="sidenavcontent px-md-2 ">App Information <img src="images\Arrow.png" class="img-fluid arrowcls"></a><br>
+                        <a  class="sidenavcontent px-md-2 " href="9Assets.html">Assets Management</a>
+                    </div> 
+                </div>
+               </div>
+
+               <!-- ////////////////upnav/////////////////////// -->
+               <div class="col-9 px-0">
+
+                   <div class="row">
+                       <div class="col-12">
+
+                        <div class="upnavinfo ">
+                
+                                <div class="navbar dropdown1 ml-lg-5 " >
+                                    <button class="nav-link dropdown-toggle  dropbtn1 ml-lg-5 "><img class="imgapplogodrop" src="E:\sysmetic\Assignment1\images\Icons\unnamed (1).png">New Message app&nbsp;&nbsp;
+                                        <!-- <img src="E:\sysmetic\Assignment1\images\Drop down arrow.png"> -->
+                                    </button>
+                                    <div class="dropdown-menu dropcontent1 ">
+                                        <a><img class="imgapplogodrop" src="images\Icons\Group 51.png">My apps</a>
+                                        <a><img class="imgapplogodrop" src="images\Icons\logo.png">ITPC app</a>
+                                        <a><img class="imgapplogodrop" src="images\Icons\unnamed (1).png">New message app</a>
+                                    </div>
+                                </div>
+
+                            <nav class="navbar navbar-expand-lg navbar-light dropdown2">
+                                  <button class="navbar-toggler" data-toggle="collapse" data-target="#mynavbar">
+                                    <span class="navbar-toggler-icon">
+                                   </span>
+                                   </button>  
+                                   <div class="collapse navbar-collapse" id="mynavbar">
+                                       <ul class="navbar-nav ml-auto">
+                                          <li class="nav-item active dropdown">
+                                           <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown"> John smith  </a>
+                                            <div class="dropdown-menu">                                       
+                                               <a href="" class="btn dropdown-item " data-toggle="modal" data-target="#changepassword">Change password</a>
+       
+                                               <div class="modal fade" id="changepassword" role="dialog">
+                                                    <div class="modal-dialog">
+                                                          <div class="modal-content">
+                                                         <div class="modal-header">
+                                                           <h4 class="modal-title">Change password</h4>
+                                                              <button class="close" data-dismiss="modal">
+                                                                 <span>&times;</span>
+                                                              </button>
+                                                          </div>
+                                                           <div class="modal-body">
+                                                               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis reprehenderit perspiciatis nesciunt, recusandae velit voluptatibus distinctio, 
+                                                               fuga exercitationem, non excepturi iste consequatur saepe maxime cum impedit placeat ipsum quo inventore.
+                                                           </div>
+                                                           <div class="modal-footer">
+                                                              <button class="btn btn-primary">Change</button>
+                                                          </div>
+                                                        </div>
+                                                       </div>
+                                                      </div>
+
+                                                          <a href="" class="dropdown-item">logout</a>
+                                                     </div>
+                                                     </li>
+                                              </ul>
+                                          </div>
+                            </nav>
+
+
+                        </div>
+                     
+
+                       </div>
+                   </div>
+
+                   <!-- //////////////////////lowerpart/////////////////// -->
+                   <div class="row">
+                       <div class="col-12">
+                        <div class="appinformation">
+                            <a class="backlink"  href="8Appinformation.html"><img src="E:\sysmetic\Assignment1\images\Back.png" class="backarrowsize">&nbsp; Back</a>
+                            <button onclick="document.getElementById('edit').style.display='block';" class="btnedit">Edit</button>
+            
+                             <div id="edit" class="editapp">
+                                <form method="POST" class="editt ml-auto mr-auto mt-5">
+                                    <div class="edithead">
+                                        <h4>Edit App Information</h4>
+                                    </div>
+            
+                                    <div class="editmain">
+                                        <div class="leftedit">
+                                        <label>App Name</label><br>
+                                        <input type="text"><br>
+            
+                                        <label>Description</label><br>
+                                        <input type="text" style="height: 100px;">
+            
+                                        <span><button class="btnsave" >Save</button> <a href="">Cancel</a></span>
+                                        </div>
+            
+            
+                                    <div class="uploadediticon">
+                                        <img src="images\Icons\unnamed (1).png" class="editappimg">
+                                        <a> Upload</a>
+            
+                                    </div>
+                                    </div>
+            
+                                </form>
+            
+                            </div>
+             
+                        </div>
+            
+                        <div class="Descriptionapp"> 
+                            <img src="images\Icons\unnamed (1).png" class="img-fluid descripedlogosize">
+                            <h5 class="descripthead"> New Message</h5>
+                        </div>
+            
+                        <div class="descriptcontent"> 
+                            <p>App Id: &nbsp;325454561 <br><br>App Secret:&nbsp;742421<br></p>
+                            <p>App Password: &nbsp; ******** <button  onclick="document.getElementById('reveal').style.display='block';" class="revealbtn">Reveal Password</button></p>
+                            
+                            <div id="reveal" class="editapp">
+                                <form method="POST" class="revealpopup ml-auto mr-auto mt-5">
+                                    <div class="edithead">
+                                        <span onclick="document.getElementById('reveal').style.display='none'" class="close" > &times;</span>
+                                        <h4 style="padding-top: 0px;">Reveal Password</h4>
+                                    </div>
+            
+                                    <div class="revealmain">
+                                        <label>Please enter your account Password</label><br>
+                                        <input type="text">
+            
+                                        <button type="submit" class="btnreveal">Submit</button>
+            
+                                    </div>
+                                </form>
+            
+            
+                            </div>
+            
+                            <p>Description</p>
+                             <p class="aboutapp">Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+                                sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+                            sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+                            sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+                        sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> 
+                        
+                        </div>
+                     
+
+                       </div>
+                   </div>
+
+               </div>
+
+           </div>
+       </div>
+
+    </body>
+</html>

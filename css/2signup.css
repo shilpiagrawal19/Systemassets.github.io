@@ -1,0 +1,211 @@
+body{
+    margin: 0px;
+
+}
+
+*{
+    box-sizing: border-box;
+}
+.background{ 
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+
+.form-container{
+    background-color: #080838;
+    /* float: right; */
+    border: 1px solid;
+    border-color: #3939ca #345fbf #80077f #7a417d;
+    align-items: center;
+    width: 280px;
+    height: 450px;
+    margin-top: 120px;
+    margin-bottom: 200px;
+    margin-left: 800px;
+    margin-right: 150px;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
+    border-radius: 25px;
+    
+}
+
+@media only screen and (max-width:1200px){
+
+    
+    .form-container{
+        background-color: #080838;
+        border: 1px solid;
+        border-color: #3939ca #345fbf #80077f #7a417d;
+        align-items: center;
+        width: 280px;
+        height: 450px;
+        margin-top: 200px;
+        margin-right: auto;
+        margin-left: 650px;   
+        padding-top: 50px;
+        padding-right: 50px;
+        padding-left: 50px;
+        border-radius: 25px;
+        
+    }
+    }
+    @media only screen and (max-width:1000px){
+
+    
+        .form-container{
+            background-color: #080838;
+            border: 1px solid;
+            border-color: #3939ca #345fbf #80077f #7a417d;
+            align-items: center;
+            width: 280px;
+            height: 450px;
+            margin-top: 200px;
+            margin-right: 50px;
+            margin-left: 550px;   
+            padding-top: 50px;
+            padding-right: 50px;
+            padding-left: 50px;
+            border-radius: 25px;
+            
+        }
+        }
+@media only screen and (max-width:850px){
+
+    
+.form-container{
+    background-color: #080838;
+    /* float: right; */
+    border: 1px solid;
+    border-color: #3939ca #345fbf #80077f #7a417d;
+    align-items: center;
+    width: 280px;
+    height: 450px;
+    margin-top: 170px;
+    margin-right: auto;
+    margin-left: auto;   
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
+    border-radius: 25px;
+    
+}
+}
+
+
+
+#name::placeholder{
+    background: url("./../images/nameicon.png");
+    background-repeat: no-repeat;
+    padding-bottom: 10px;
+    background-size: 6%;
+    color: white;
+    padding-left: 22px;
+    font-size: 11px;
+
+
+}
+#email::placeholder{
+    background: url("./../images/emailicon.png");
+    background-repeat: no-repeat;
+    padding-bottom: 5px;
+    background-size: 8%;
+    color: white;
+    padding-left: 22px;
+    margin-bottom: 10px;
+    font-size: 11px;
+
+
+}
+
+#password::placeholder{
+    background: url("./../images/passwordicon.png");
+    background-repeat: no-repeat;
+    padding-bottom: 10px;
+    background-size: 6%;
+    color: white;
+    padding-left: 22px;
+    margin-bottom: 10px;
+    font-size: 11px;
+
+
+}
+
+.logosam{
+    padding-bottom: 30px;
+    width: 160px;
+    padding-left: 40px;
+
+}
+
+#name{
+    border: none;
+	border-bottom: 1px solid grey;
+	background: transparent;
+    height: 22px;
+    font-size: 12px;
+    color: white;
+    padding-bottom: 12px;
+    margin-bottom: 5px;
+
+
+}
+#email {
+    border: none;
+	border-bottom: 1px solid grey;
+	background: transparent;
+    height: 22px;
+    font-size: 12px;
+    color: white;
+    padding-bottom: 12px;
+    margin-bottom: 30px;
+
+}
+
+#password{
+    border: none;
+	border-bottom: 1px solid grey;
+	background: transparent;
+    height: 22px;
+    font-size: 12px;
+    color: white;
+    padding-bottom: 12px;
+    margin-bottom: 30px;
+}
+
+.btnsignin{
+    border: none;
+    width: 100px;
+    height: 30px;
+    /* margin-top: 20px; */
+    /* margin-left: 50px; */
+    /* margin-bottom: 20px; */
+    margin: auto auto 20px auto;
+    border-radius: 20px;
+    font-size: 10px;
+    /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+    box-shadow: 0px 0px 25px 0px #0a2cfb;
+    opacity: 0.8;
+    color:white;
+    background: linear-gradient(to right ,#0c04AE ,#2564DE);
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.pera{
+    font-size: 10px;
+    color: white;
+    text-align: center;
+}
+
+.pera a{
+    text-decoration: underline;
+}
